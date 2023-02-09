@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 
-const dbconfig = new Sequelize('ramerion', 'root', '', {
-    host: 'localhost',
+const dbconfig = new Sequelize('sql6597005', 'sql6597005', 'nXLVMfRmLG', {
+    host: 'sql6.freemysqlhosting.net',
     dialect: 'mysql'
   });
 
