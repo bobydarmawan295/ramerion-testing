@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.set("view engine", "ejs");
-app.use(express.static("/var/task/public"));
+app.use(express.static("public"));
 
 app.get("*", checkUser);
 app.use("/auth", auth);
