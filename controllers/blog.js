@@ -1,4 +1,4 @@
-const model = require('../models/indexModel');
+const model = require('../models/indexmodel');
 const { Op, QueryTypes  } = require("sequelize");
 const slugify = require('slugify')
 const controller = {};
